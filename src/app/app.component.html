@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">Angular 2 + vis.js</div>
+        <div class="panel-body">
+          <div class="row" *ngFor="let x of data; let xi=index;">
+            <div class="col-xs-2" *ngFor="let y of x; let yi=index;">
+              <input type="text" [(ngModel)]="data[xi][yi].value">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button class="btn btn-primary pull-right" (click)="updateData()">reload</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div appVis3DGraph [data]="data"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
