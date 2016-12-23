@@ -7,3 +7,5 @@ https://javaeeblog.wordpress.com/?p=3168
 
 ## Layout:
 ![alt text](https://github.com/GEDOPLAN/ng2-vis-demo/blob/master/src/assets/vis.js.png?raw=true "Demo Screenshot")
+
+## by Dominik Mathmann, GEDOPLAN
